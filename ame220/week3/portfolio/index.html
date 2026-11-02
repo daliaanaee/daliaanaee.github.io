@@ -1,78 +1,94 @@
 <!DOCTYPE html>
 <html lang="en">
 <head>
-    <meta charset="UTF-8">
-    <meta name="viewport" content="width=device-width, initial-scale=1.0">
-    <title>ISHRAT // SAMPLE CSS PORTFOLIO</title>
-    <style>
-        @import url('https://fonts.googleapis.com/css2?family=Rajdhani:wght@300;400;500;600;700&family=Roboto+Mono:ital,wght@0,100..700;1,100..700&display=swap');
-    </style>
-    <link rel="stylesheet" href="./styles.css">
-    <!--link says hey, you are going to reference some important information, here is the type of file you're referencing and here is its location-->
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <title>Dalia Anaee | Digital Portfolio</title>
+  <link rel="preconnect" href="https://fonts.googleapis.com">
+  <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+  <link href="https://fonts.googleapis.com/css2?family=DM+Mono:wght@400;500&family=Manrope:wght@400;500;600;700;800&display=swap" rel="stylesheet">
+  <link rel="stylesheet" href="./styles.css">
 </head>
 <body>
-    <header>Ishrat Lallmamode</header>
-    <div class="title">Back to the beginning. We all come to a story with hopes and expectations, looking for an answer.</div>
+  <header class="site-header">
+    <a class="wordmark" href="#top">DA<span>.</span></a>
+    <nav aria-label="Main navigation">
+      <a href="#about">ABOUT</a>
+      <a href="#focus">INTERESTS</a>
+      <a href="#work">CREATIVE INSPIRATION</a>
+      <a href="#contact">CONTACT</a>
+    </nav>
+  </header>
 
-    <div class="atAGlance">
-        <h2>at a glance</h2>
-        <div class="cards">
-            <div><h3>DESIGNING CONCEPTS</h3><p>I love to design things about things. don't you?</p></div>
+  <main id="top">
+    <section class="hero">
+      <p class="eyebrow">INFORMATICS • DIGITAL CULTURE</p>
+      <h1>Hi, I'm <span>Dalia.</span><br>Curious about the digital world.</h1>
+      <p class="hero-copy">I’m an Informatics student at Arizona State University interested in technology, design, and the ways people interact with digital experiences.</p>
+      <a class="text-link" href="#about">GET TO KNOW ME <span>↘</span></a>
+    </section>
 
-            <div>
-                <h3>INSTRUCTOR</h3>
-                <p>I teach AME 220! I think my students are really cool and I love to teach!</p>
-            </div>
+    <section class="section" id="about">
+      <div class="section-heading">
+        <p class="eyebrow">01 / A LITTLE ABOUT ME</p>
+        <h2>Learning, creating,<br>and figuring things out.</h2>
+      </div>
+      <div class="about-panel">
+        <p>I study Informatics with a focus on Digital Culture Studies. I enjoy combining creative thinking with technology, whether I’m exploring web design, learning about cybersecurity, or working on projects with a team.</p>
+        <p>Outside of class, I enjoy contemporary dance, nature photography, and discovering places with interesting history and architecture.</p>
+      </div>
+    </section>
 
-            <div>
-                <h3>DUNGEON MASTER</h3>
-                <p>I play way too much dungeons and dragons, and I love watching Dimension 20. </p>
-            </div>
-        
+    <section class="section" id="focus">
+      <p class="eyebrow">02 / WHAT I'M INTERESTED IN</p>
+      <div class="interest-grid">
+        <article class="interest-card">
+          <span class="number">01</span>
+          <h3>Technology &amp; Security</h3>
+          <p>Exploring cybersecurity, problem-solving, and how technology can be made safer and more useful.</p>
+        </article>
+        <article class="interest-card">
+          <span class="number">02</span>
+          <h3>Digital Design</h3>
+          <p>Learning how layout, color, typography, and interaction shape a person's experience online.</p>
+        </article>
+        <article class="interest-card">
+          <span class="number">03</span>
+          <h3>Dance &amp; Photography</h3>
+          <p>Finding creative expression through movement, performance, and capturing moments in nature.</p>
+        </article>
+      </div>
+    </section>
 
-        </div>
-    </div>
+    <section class="section" id="work">
+      <p class="eyebrow">03 / VISUAL INSPIRATION</p>
+      <h2 class="section-title">Stories told through digital worlds.</h2>
+      <p class="section-intro">These images are from the sample assets provided with the class materials. I’m using them to explore how visual design can create a mood and tell a story.</p>
+      <div class="visual-grid">
+        <article class="visual-card">
+          <img src="./assets/alanWakeGamesHub.jpg" alt="Alan Wake 2 game artwork">
+          <div><h3>Atmosphere</h3><p>Using light, contrast, and imagery to create a memorable visual mood.</p></div>
+        </article>
+        <article class="visual-card">
+          <img src="./assets/massEffectWiki.jpg" alt="Mass Effect game artwork">
+          <div><h3>World-building</h3><p>How a consistent visual style helps make a digital world feel immersive.</p></div>
+        </article>
+        <article class="visual-card">
+          <img src="./assets/haloWaypoint.jpg" alt="Halo game artwork">
+          <div><h3>Visual identity</h3><p>Recognizable colors and shapes can make an experience feel cohesive.</p></div>
+        </article>
+      </div>
+    </section>
 
-    <div class="education">
-        <h2>EDUCATION HISTORY</h2>
-        <ul>
-            <li><span class="year">2023</span> ARIZONA STATE UNIVERSITY. MASTERS OF MEDIA ARTS AND SCIENCES</li>
-            <li><span class="year">2013</span> UNIVERSITY OF ARIZONA. BACHELORS OF ARTS: ECONOMICS</li>
-        </ul>
-    </div>
+    <section class="contact" id="contact">
+      <p class="eyebrow">04 / SAY HELLO</p>
+      <h2>Thanks for stopping by.</h2>
+      <p>I'm currently learning and building new skills one project at a time.</p>
+      <a class="button-link" href="https://www.asu.edu/" target="_blank" rel="noopener noreferrer">VISIT ASU</a>
+    </section>
+  </main>
 
-    <div class="favoriteGames">
-
-        <h2>FAVORITE GAMES</h2>
-        <div class="cards">
-        <div>
-            <img src="./assets/alanWakeGamesHub.jpg"/>
-            <h3>Alan Wake 2</h3>
-            <p>Remedy does it again.</p>
-        </div>
-        
-        <div>
-            <img src="./assets/massEffectWiki.jpg"/>
-            <h3>Mass Effect: Legendary Edition</h3>
-            <p>Not now, I'm calibrating</p>
-        </div>
-        
-        <div>
-            <img src="./assets/haloWaypoint.jpg"/>
-            <h3>Halo 4</h3>
-            <p>Bring back the queen! (no not that one)</p>
-        </div>
-        
-        
-        </div>
-        
-        </div>
-    </div>
-
-    <footer>
-        <h2>CONTACT ME</h2>
-        <h3>XXX@ASU.EDU</h3>
-        
-    </footer>
+  <footer><span>© 2026 Dalia Anaee</span><span>MADE FOR AME 220</span></footer>
 </body>
 </html>
+
