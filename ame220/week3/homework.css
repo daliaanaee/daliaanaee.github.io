@@ -1,1 +1,99 @@
+* {
+  box-sizing: border-box;
+}
+
+body {
+  min-height: 100vh;
+  margin: 0;
+  padding: 40px 16px;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  background-color: #e9dfe4;
+  font-family: "DM Mono", monospace;
+}
+
+.card {
+  width: 500px;
+  height: 750px;
+  padding: 36px;
+  background-color: #fbf8f6;
+  border-radius: 12px;
+  box-shadow: 12px 12px 0 rgba(100, 59, 78, .22);
+}
+
+.card-image {
+  display: block;
+  width: 100%;
+  height: 300px;
+  margin-bottom: 12px;
+  object-fit: cover;
+  border-radius: 7px;
+}
+
+.eyebrow {
+  margin: 18px 0 8px;
+  color: #a84f72;
+  font-size: 10px;
+  letter-spacing: 1px;
+}
+
+h1 {
+  margin: 8px 0 14px;
+  color: #342631;
+  font-family: "Playfair Display", serif;
+  font-size: 32px;
+  line-height: 1.15;
+}
+
+.description {
+  color: #625760;
+  font-size: 13px;
+  line-height: 1.7;
+}
+
+.card-button {
+  display: inline-block;
+  margin-top: 14px;
+  padding: 12px 18px;
+  color: #fff;
+  background-color: #a84f72;
+  border: 2px solid #a84f72;
+  border-radius: 5px;
+  font-family: inherit;
+  font-size: 12px;
+  cursor: pointer;
+  transition: color 200ms ease, background-color 200ms ease;
+}
+
+.card-button:hover {
+  color: #a84f72;
+  background-color: transparent;
+}
+
+.card-button:focus-visible {
+  outline: 3px solid #342631;
+  outline-offset: 3px;
+}
+
+.more-info {
+  color: #625760;
+  font-size: 11px;
+}
+
+.more-info a {
+  color: #a84f72;
+}
+
+.more-info a:hover {
+  color: #342631;
+}
+
+@media (max-width: 560px) {
+  .card {
+    width: 100%;
+    height: auto;
+    min-height: 750px;
+  }
+}
 
