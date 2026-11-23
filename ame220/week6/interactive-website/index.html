@@ -1,1 +1,149 @@
 
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>The Little Things | Dalia</title>
+
+    <link rel="stylesheet" href="style.css">
+    <script src="script.js" defer></script>
+</head>
+
+<body>
+
+    <header class="navbar">
+        <a href="#" class="logo">the little things<span>.</span></a>
+
+        <nav>
+            <a href="#welcome">HOME</a>
+            <a href="#moments">MOMENTS</a>
+            <a href="#daily-list">DAILY LIST</a>
+        </nav>
+    </header>
+
+    <main>
+
+        <!-- INTRODUCTION -->
+        <section class="hero" id="welcome">
+            <p class="eyebrow">A LITTLE SPACE FOR YOURSELF</p>
+
+            <h1>Make room for <span>the little things.</span></h1>
+
+            <p class="hero-text">
+                A reminder to slow down, appreciate the small moments,
+                and make every day a little more meaningful.
+            </p>
+
+            <button id="greetingButton" class="primary-button">
+                A little reminder for today
+            </button>
+
+            <div id="greetingMessage" class="greeting-message">
+                Your reminder will appear here.
+            </div>
+        </section>
+
+        <!-- FEATURED MOMENTS -->
+        <section class="moments" id="moments">
+
+            <div class="section-heading">
+                <p class="eyebrow">YOUR DAILY INSPIRATION</p>
+                <h2>Find beauty in the everyday.</h2>
+            </div>
+
+            <div class="moment-grid">
+
+                <div class="moment-card" id="photoCard">
+                    <div class="moment-icon">✿</div>
+                    <p class="card-label">01 / SLOW DOWN</p>
+                    <h3>Take a breath.</h3>
+                    <p>
+                        Give yourself permission to pause.
+                        Not everything needs to happen at once.
+                    </p>
+                    <span class="hover-message">
+                        A moment just for you ♡
+                    </span>
+                </div>
+
+                <div class="moment-card">
+                    <div class="moment-icon">♡</div>
+                    <p class="card-label">02 / SELF CARE</p>
+                    <h3>Choose yourself.</h3>
+                    <p>
+                        Make time for the things that bring
+                        you comfort, happiness, and peace.
+                    </p>
+                    <span class="hover-message">
+                        You deserve it ♡
+                    </span>
+                </div>
+
+                <div class="moment-card">
+                    <div class="moment-icon">✧</div>
+                    <p class="card-label">03 / APPRECIATE</p>
+                    <h3>Notice the details.</h3>
+                    <p>
+                        Sometimes the smallest moments
+                        become the most memorable ones.
+                    </p>
+                    <span class="hover-message">
+                        Look a little closer ♡
+                    </span>
+                </div>
+
+            </div>
+
+        </section>
+
+        <!-- DAILY TO-DO LIST -->
+        <section class="daily-list" id="daily-list">
+
+            <div class="section-heading">
+                <p class="eyebrow">A FRESH START</p>
+                <h2>Your little daily list.</h2>
+                <p class="list-description">
+                    Small steps are still progress.
+                </p>
+            </div>
+
+            <div class="todo-container">
+
+                <div class="todo-input-row">
+                    <input
+                        type="text"
+                        id="taskInput"
+                        placeholder="Add something to your day..."
+                    >
+
+                    <button id="addTask" class="primary-button">
+                        Add task +
+                    </button>
+                </div>
+
+                <ul id="taskList"></ul>
+
+                <p id="taskMessage" class="task-message">
+                    Your list is waiting for you.
+                </p>
+
+            </div>
+
+        </section>
+
+    </main>
+
+    <footer>
+        <p>MADE WITH ♡ BY DALIA ANAEE</p>
+        <p>FIND JOY IN THE LITTLE THINGS.</p>
+    </footer>
+
+    <button id="themeButton" class="theme-button">
+        ☀ Switch to light mode
+    </button>
+
+</body>
+</html>
+
